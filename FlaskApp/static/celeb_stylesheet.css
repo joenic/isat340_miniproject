@@ -1,0 +1,44 @@
+table{
+	margin: .3em;
+	max-width:700px;
+	background-color: #F1CC60;
+}
+table.center{
+	margin-left:auto; 
+    margin-right:auto;
+}
+a.link{
+	margin: .5em;
+	background-color: white;
+	position:fixed;
+	right:0;
+	top:0;
+	width: 260px;
+	border: 3px solid red;
+}
+div{
+	text-align:center;
+}
+div.bio{
+	text-indent:40px;
+	font-family:Times New Roman;
+	text-align:left;
+}
+div.fullname{
+	text-align:center;
+	font-family:Lucida Sans Unicode;
+}	
+body{
+	background-image: url("red_carpet.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #900;
+	padding-left: .5em;
+	padding-right: .5em;
+	text-align:center;
+}
+.centerCell{
+	text-align: center;
+}

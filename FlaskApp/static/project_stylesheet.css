@@ -1,0 +1,33 @@
+body { 
+  background-color: gray;
+  background-image: url("star.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid #900;
+  padding-left: .5em;
+  padding-right: .5em;
+  text-align: center-left;
+}
+h1 {
+  color: white;
+  text-align: center;
+  border-bottom: solid;
+  border-color: black;
+}
+form {
+  width: 30%;
+}
+input[type=text], input[type=password]
+{
+  width: 95%;
+  padding: 12 px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+p {
+  color: black;
+}
